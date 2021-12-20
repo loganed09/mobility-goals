@@ -13,16 +13,21 @@ export default function NavBar() {
   
     return (
       <nav className="navbar">
-          <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
-              <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
-          </p>
-          <div className="navItems">
-            <a className="navItem nitem1" href="#projects">Schedule</a>
-            <a className="navItem nitem2" href="#team">Team Members</a>
-            <a className="navItem nitem3" href="#contact">Contact</a>
-            <a className="navItem nitem4" href="#testimonials">Testimonials</a>
+          <div className="desktopNav"> 
+            <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
+                <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
+            </p>
+            <div className="navItems">
+              <a className="navItem nitem1" href="#projects">Schedule</a>
+              <a className="navItem nitem2" href="#team">Team Members</a>
+              <a className="navItem nitem3" href="#contact">Contact</a>
+              <a className="navItem nitem4" href="#testimonials">Testimonials</a>
+            </div>
           </div>
           <div className="dropdown">
+            <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
+                <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
+            </p>
             <button className="mobile-id" onClick={handleToggle}>
                 <i className={`${navbarOpen ? "cross fas fa-times" : "hamburger fas fa-bars"}`}></i>
             </button>

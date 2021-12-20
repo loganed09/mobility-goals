@@ -1,12 +1,15 @@
 nav {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    place-items: center;
     z-index: 100;
     position: fixed;
     top: 0;
     background-color: white;
+}
+
+.desktopNav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
 }
 
 .navItems {
@@ -39,15 +42,19 @@ nav {
         display: none;
     }
 
+    .desktopNav {
+        display: none;
+    }
+
     nav {
         position: fixed;
         top: 0;
         z-index: 100;
     }
 
-    .logo.hideLogo {
+    /* .logo.hideLogo {
         display: none;
-    }
+    } */
 
     .logo {
         margin: 0;
@@ -55,8 +62,9 @@ nav {
     }
 
     .dropdown {
-        display: block;
-        grid-column-start: 5;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
     }
 
 
@@ -72,20 +80,22 @@ nav {
         display: flex;
         flex-direction: column;
         text-align: center;
-        justify-content: space-evenly;
         padding: 0;
         margin: 0;
-
+        height: 100vh;
+        grid-column: 2/5;
     }
 
     .dropdown-content {
         transition: all 1s ease-in;
+        
     }
 
     .dropdown-content a {
         padding: .2rem;
         text-decoration: none;
         color: black;
+        padding-top: 3rem;
     }
 
     .mobile-id {
@@ -93,7 +103,7 @@ nav {
         border: 0;
         background-color: transparent;
         margin: .5rem 0;
-        
+        grid-column: 5;
     }
 
 
