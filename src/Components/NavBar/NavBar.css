@@ -1,0 +1,100 @@
+nav {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    place-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    background-color: white;
+}
+
+.navItems {
+    grid-column: 3 / 6;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+
+.navItem{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.dropdown {
+    display: none;
+}
+
+
+.dropdown-content {
+    display: none;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .navItems {
+        display: none;
+    }
+
+    nav {
+        position: fixed;
+        top: 0;
+        z-index: 100;
+    }
+
+    .logo.hideLogo {
+        display: none;
+    }
+
+    .logo {
+        margin: 0;
+        padding-left: 1rem;
+    }
+
+    .dropdown {
+        display: block;
+        grid-column-start: 5;
+    }
+
+
+    .dropdown i {
+        font-size: 1.7rem;
+    }
+
+    i.cross {
+        font-size: 2.2rem;
+    }
+
+    .dropdown-content.showMenu {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: space-evenly;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .dropdown-content {
+        transition: all 1s ease-in;
+    }
+
+    .dropdown-content a {
+        padding: .2rem;
+        text-decoration: none;
+        color: black;
+    }
+
+    .mobile-id {
+        cursor: pointer;
+        border: 0;
+        background-color: transparent;
+        margin: .5rem 0;
+        
+    }
+
+
+}
