@@ -34,7 +34,7 @@ nav {
 }
 
 .iconImage {
-    width: 7.5rem;
+    width: 6.5rem;
 }
 
 .appointmentBook {
@@ -44,7 +44,7 @@ nav {
     border-radius: 3%;
     padding: .8rem;
     grid-column: 3;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .dropdown {
