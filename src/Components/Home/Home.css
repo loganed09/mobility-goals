@@ -150,7 +150,7 @@
     font-weight: 500;
     color: #787878;
     font-size: 14px;
-    margin-top: 13rem;
+    margin-top: 13rem !important;
   }
 
   .testimonial4 p {
