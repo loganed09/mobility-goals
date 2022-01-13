@@ -20,9 +20,10 @@ function App() {
             <Route path="/services" activeClassName="current" element={<Services/>} />
             <Route path="/contact" activeClassName="current"  element={<Contact/>} />
           </Routes>
+          <Contact />
+        <Footer/>
       </div>
-      <Contact />
-      <Footer/>
+      
     </BrowserRouter>
     
   );
