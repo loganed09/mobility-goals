@@ -83,9 +83,15 @@
     padding: 3rem 0;
 }
 
+.services h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
+
 .serviceImages {
     display: flex;
-
+    font-family: "Raleway", sans-serif;
 }
 
 .serviceImages img {

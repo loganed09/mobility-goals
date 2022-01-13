@@ -35,10 +35,7 @@ export default function Home() {
             </div>
             <div className='services'>
                 <h2>Services</h2>
-                {/* <div className="service1">
-                    <h3>Service1</h3>
-                    <img className="service1Pic" src={workInProgress.default} />
-                </div> */}
+             
                 <div className='serviceImages'>
                     <div className="service1">
                         <h3>Service1</h3>
@@ -53,11 +50,11 @@ export default function Home() {
                         <img src={workInProgress.default} alt="" className="service3" />
                     </div>
                     <div className="service4">
-                        <h3>Service5</h3>
+                        <h3>Service4</h3>
                         <img src={workInProgress.default} alt="" className="service4" />
                     </div>
                     <div className="service5">
-                        <h3>Service6</h3>
+                        <h3>Service5</h3>
                         <img src={workInProgress.default} alt="" className="service5" />
                     </div>
                 </div>

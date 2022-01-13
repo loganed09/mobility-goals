@@ -4,6 +4,7 @@ nav {
     position: fixed;
     top: 0;
     background-color: white;
+    border-bottom: #c9DD72 3px solid;
 }
 
 .desktopNav {
@@ -35,6 +36,17 @@ nav {
 .iconImage {
     width: 7.5rem;
 }
+
+.appointmentBook {
+    text-decoration: none;
+    color: black;
+    background-color: #c9DD72;
+    border-radius: 5%;
+    padding: .5rem 1rem;
+    grid-column: 3;
+    font-size: 1.5rem;
+}
+
 .dropdown {
     display: none;
 }

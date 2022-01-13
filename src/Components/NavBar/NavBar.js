@@ -10,6 +10,7 @@ import {
     faLinkedin,
     faGoogle
   } from "@fortawesome/free-brands-svg-icons";
+  import { NavLink } from 'react-router-dom';
 
 
 export default function NavBar() {
@@ -27,13 +28,22 @@ export default function NavBar() {
             <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
                 <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
             </p>
+            <a className="appointmentBook" href="https://square.site/book/6GW4DVDWNC8ZY/mobility-goals-columbus-oh" target="_blank">Book an Appointment</a>
             <div className="navItems">
-              <a className="navItem nitem1" href="#home">Home</a>
+              {/* <a className="navItem nitem1" href="#home">Home</a>
               <a className="navItem nitem2" href="#about">About</a>
               <a className="navItem nitem3" href="#services">Services</a>
               <a className="navItem nitem4" href="#contact">Contact</a>
               <a className="navItem nitem5" href="#testimonials">Testimonials</a>
               <a className="navItem nitem6" href="https://www.instagram.com/mobilitygoals/">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a> */}
+
+              <NavLink className="navItem nitem1" to='/'>Home</NavLink>
+              <NavLink className="navItem nitem2" to='/about'>Team</NavLink>
+              <NavLink className="navItem nitem3" to='/services'>Services</NavLink>
+              <NavLink className="navItem nitem4" to='/contact'>Contact</NavLink>
+              <a className="navItem nitem5" href="https://www.instagram.com/mobilitygoals/">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </div>
