@@ -6,6 +6,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
+import Footer from './Components/Footer/Footer';
 import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
 
 function App() {
@@ -20,7 +21,10 @@ function App() {
             <Route path="/contact"activeClassName="current"  element={<Contact/>} />
           </Routes>
       </div>
+      <Contact />
+      <Footer/>
     </BrowserRouter>
+    
   );
 }
 
