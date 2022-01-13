@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mobility-goals/static/css/main.d8f1fb03.chunk.css",
+    "main.css": "/mobility-goals/static/css/main.76d22960.chunk.css",
     "main.js": "/mobility-goals/static/js/main.3a75be93.chunk.js",
     "main.js.map": "/mobility-goals/static/js/main.3a75be93.chunk.js.map",
     "runtime-main.js": "/mobility-goals/static/js/runtime-main.e996f94c.js",
@@ -10,7 +10,7 @@
     "static/js/3.5c0039f5.chunk.js": "/mobility-goals/static/js/3.5c0039f5.chunk.js",
     "static/js/3.5c0039f5.chunk.js.map": "/mobility-goals/static/js/3.5c0039f5.chunk.js.map",
     "index.html": "/mobility-goals/index.html",
-    "static/css/main.d8f1fb03.chunk.css.map": "/mobility-goals/static/css/main.d8f1fb03.chunk.css.map",
+    "static/css/main.76d22960.chunk.css.map": "/mobility-goals/static/css/main.76d22960.chunk.css.map",
     "static/js/2.11ff7f94.chunk.js.LICENSE.txt": "/mobility-goals/static/js/2.11ff7f94.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/mobility-goals/static/media/logo.6ce24c58.svg",
     "static/media/picOfApril.jpg": "/mobility-goals/static/media/picOfApril.8c7ef87a.jpg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.e996f94c.js",
     "static/js/2.11ff7f94.chunk.js",
-    "static/css/main.d8f1fb03.chunk.css",
+    "static/css/main.76d22960.chunk.css",
     "static/js/main.3a75be93.chunk.js"
   ]
 }
