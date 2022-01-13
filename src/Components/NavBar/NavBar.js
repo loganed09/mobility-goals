@@ -26,7 +26,7 @@ export default function NavBar() {
       <nav className="navbar">
           <div className="desktopNav"> 
             <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
-                <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
+                <NavLink to="/mobility-goals"><img className="iconImage" src={iconImage.default} alt="iconImg" /></NavLink>
             </p>
             <a className="appointmentBook" href="https://square.site/book/6GW4DVDWNC8ZY/mobility-goals-columbus-oh" target="_blank">Book an Appointment</a>
             <div className="navItems">
@@ -39,7 +39,7 @@ export default function NavBar() {
                 <FontAwesomeIcon icon={faInstagram} />
               </a> */}
 
-              <NavLink className="navItem nitem1" to='/'>Home</NavLink>
+              <NavLink className="navItem nitem1" to='/mobility-goals'>Home</NavLink>
               <NavLink className="navItem nitem2" to='/about'>Team</NavLink>
               <NavLink className="navItem nitem3" to='/services'>Services</NavLink>
               <NavLink className="navItem nitem4" to='/contact'>Contact</NavLink>

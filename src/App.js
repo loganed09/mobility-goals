@@ -6,7 +6,7 @@ import Home from './Components/Home/Home';
 import About from './Components/About/About';
 import Services from './Components/Services/Services';
 import Contact from './Components/Contact/Contact';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Redirect } from 'react-router-dom';
 
 function App() {
   return (
@@ -14,10 +14,10 @@ function App() {
       <div>
         <NavBar/>
           <Routes>
-            <Route exact path="/"  element={<Home/>} />
-            <Route exact path="/about" element={<About/>} />
-            <Route path="/services" component={Services} />
-            <Route path="/contact" component={Contact} />
+            <Route exact path="/mobility-goals"  activeClassName="current" element={<Home/>} />
+            <Route path="/about" activeClassName="current" element={<About/>} />
+            <Route path="/services" activeClassName="current" element={<Services/>} />
+            <Route path="/contact"activeClassName="current"  element={<Contact/>} />
           </Routes>
       </div>
     </BrowserRouter>
