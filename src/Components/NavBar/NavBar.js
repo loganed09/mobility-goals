@@ -1,5 +1,15 @@
 import React, { useState } from 'react';
 import './NavBar.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+    faYoutube,
+    faFacebook,
+    faTwitter,
+    faInstagram,
+    faGithub,
+    faLinkedin,
+    faGoogle
+  } from "@fortawesome/free-brands-svg-icons";
 
 
 export default function NavBar() {
@@ -18,11 +28,14 @@ export default function NavBar() {
                 <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
             </p>
             <div className="navItems">
-              {/* <a className="navItem nitem1" href="#schedule">Schedule</a> */}
-              <a className="navItem nitem2" href="#team">Team Members</a>
+              <a className="navItem nitem1" href="#home">Home</a>
+              <a className="navItem nitem2" href="#about">About</a>
               <a className="navItem nitem3" href="#services">Services</a>
               <a className="navItem nitem4" href="#contact">Contact</a>
               <a className="navItem nitem5" href="#testimonials">Testimonials</a>
+              <a className="navItem nitem6" href="https://www.instagram.com/mobilitygoals/">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </div>
           </div>
           <div className="dropdown">
@@ -36,7 +49,7 @@ export default function NavBar() {
               {/* <a href="#schedule">Schedule</a> */}
               <a href="#services">Services</a>
               <a href="#contact">Contact</a>
-              <a href="#team">Team Members</a>
+              <a href="#team">About</a>
               <a href="#testimonials">Testimonials</a>
             </ul>
           </div>

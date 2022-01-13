@@ -41,3 +41,53 @@
     font-size: 1.4rem;
     line-height: 1.9rem;
 }
+
+
+.whatIsNMT {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.NMTText {
+    width: 60%;
+}
+
+
+
+.NMTText h2 {
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    color: #c9DD72;
+}
+
+.NMTText p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: .5rem;
+}
+
+.NMTpic {
+    margin-top: 2rem;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    background-color: #c9DD72;
+    margin-top: 2.5rem;
+    padding: 3rem 0;
+}
+
+.serviceImages {
+    display: flex;
+
+}
+
+.serviceImages img {
+    width: 50%;
+}

@@ -13,7 +13,7 @@ nav {
 }
 
 .navItems {
-    grid-column: 3 / 6;
+    grid-column: 5 / 6;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -24,9 +24,17 @@ nav {
     text-decoration: none;
     color: black;
     cursor: pointer;
-    font-weight: bold;
+    font-size: 1.2rem;
 }
 
+.logo {
+ justify-self: start;  
+ padding-left: 3rem;
+}
+
+.iconImage {
+    width: 7.5rem;
+}
 .dropdown {
     display: none;
 }
@@ -35,6 +43,7 @@ nav {
 .dropdown-content {
     display: none;
 }
+
 
 
 @media only screen and (max-width: 700px) {
