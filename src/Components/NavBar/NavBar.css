@@ -41,8 +41,8 @@ nav {
     text-decoration: none;
     color: black;
     background-color: #c9DD72;
-    border-radius: 5%;
-    padding: .5rem 1rem;
+    border-radius: 3%;
+    padding: .8rem;
     grid-column: 3;
     font-size: 1.5rem;
 }

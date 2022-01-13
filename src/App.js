@@ -18,7 +18,7 @@ function App() {
             <Route exact path="/mobility-goals"  activeClassName="current" element={<Home/>} />
             <Route path="/about" activeClassName="current" element={<About/>} />
             <Route path="/services" activeClassName="current" element={<Services/>} />
-            <Route path="/contact"activeClassName="current"  element={<Contact/>} />
+            <Route path="/contact" activeClassName="current"  element={<Contact/>} />
           </Routes>
       </div>
       <Contact />
