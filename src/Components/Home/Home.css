@@ -150,28 +150,28 @@
     font-weight: 500;
     color: #787878;
     font-size: 14px;
-    margin-top: 13rem !important;
+    margin-top: 14rem !important;
   }
-
+/* 
   .testimonial1 h4 {
       margin-top: 13.5rem !important;
-  }
+  } */
 
   .testimonial4 p {
       padding-top: 5rem !important;
   }
 
-  .testimonial4 h4 {
+  /* .testimonial4 h4 {
      margin-top: 12rem !important;
-  }
+  } */
 
   .testimonial5 p {
       padding-top: 7rem !important;
   }
 
-  .testimonial5 h4 {
+  /* .testimonial5 h4 {
       margin-top: 10rem !important;
-  }
+  } */
   
   .myCarousel p {
     font-weight: 100 !important;
