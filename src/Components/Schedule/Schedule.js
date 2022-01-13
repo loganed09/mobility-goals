@@ -3,7 +3,7 @@ import './Schedule.css';
 
 
 export default function Schedule() {
-    let schedulePic = require("../../resources/images/picOfApril.jpg");
+    let schedulePic = require("../../resources/images/frontPicture.jpg");
 
     return (
         <div className="schedule">

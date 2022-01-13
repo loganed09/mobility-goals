@@ -1,0 +1,43 @@
+#home {
+    height: auto;
+    width: 100%;
+    margin-top: 7.1rem;
+    position: relative;
+}
+
+.topSection {
+    display: flex;
+    background-color: #c9DD72;
+    justify-content: center;
+}
+
+.introTextContainer {
+    display: flex;
+    Justify-content: center;
+    align-items: center;
+}
+
+.frontPic {
+    width: 635px;
+    height: 750px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.introText {
+    width: 60%;
+    text-align: start;
+    font-size: 1.2rem;
+}
+
+.introText h2 {
+    font-size: 40px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+}
+
+.introText p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
