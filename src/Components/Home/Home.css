@@ -142,7 +142,7 @@
   .carousel .control-dots {
     padding-left: 5px !important;
     outline: 0;
-    bottom: 0;
+    bottom: 0 !important;
   }
   
   .myCarousel h4 {
@@ -154,19 +154,19 @@
   }
 
   .testimonial4 p {
-      padding-top: 5rem;
+      padding-top: 5rem !important;
   }
 
   .testimonial4 h4 {
-     margin-top: 12rem;
+     margin-top: 12rem !important;
   }
 
   .testimonial5 p {
-      padding-top: 7rem;
+      padding-top: 7rem !important;
   }
 
   .testimonial5 h4 {
-      margin-top: 10rem;
+      margin-top: 10rem !important;
   }
   
   .myCarousel p {
