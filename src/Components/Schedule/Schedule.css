@@ -1,5 +1,9 @@
 .schedule {
     margin-top: 5rem;
+    background-color: #c9DD72;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .imgContainer {
@@ -9,3 +13,10 @@
 .imgContainer img {
     width: 100%;    
 }
+
+
+.scheduleBox {
+    padding: 10rem 0;
+    width: 10rem;
+}
+
