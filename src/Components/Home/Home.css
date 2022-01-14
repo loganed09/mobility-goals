@@ -258,7 +258,7 @@
       padding-left: 5%;
       padding-right: 5%;
       border: 1px solid #ddd;
-      height: 750px;
+      height: 800px;
     }
   
     .carousel.carousel-slider .control-arrow {
@@ -266,28 +266,36 @@
     }
   
     .carousel-root {
-      width: 100% !important;
+      width: 90% !important;
       margin: auto !important;
       margin-top: 3% !important;
     }
   
     .myCarousel h4 {
-      margin-top: 35rem !important;
+      margin-top: 39.5rem !important;
+    }
+
+    .testimonial2 h4 {
+        margin-top: 30rem !important;
+    }
+
+    .testimonial3 h4 {
+        margin-top: 31rem !important;
     }
 
     .testimonial4 p {
         padding-top: 5rem !important;
     }
   
-    /* .testimonial4 h4 {
-       margin-top: 36rem !important;
-    } */
+    .testimonial4 h4 {
+       margin-top: 21rem !important;
+    }
   
     .testimonial5 p {
         padding-top: 15rem !important;
     }
   
     .testimonial5 h4 {
-        margin-top: 25rem !important;
+        margin-top: 8rem !important;
     }
  }
