@@ -4,10 +4,26 @@
     padding-bottom: 3rem;
 }
 
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    font-weight: 300;
+}
 
 a {
     text-decoration: none;
     color: black;
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: .5rem;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: .5rem;
 }
 
 .contactInfo {

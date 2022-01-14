@@ -222,17 +222,23 @@
         flex-direction: column;
         justify-content: center;
     }
+
+    #home {
+        margin-top: 2rem;
+    }
   
     .topSection {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        padding-bottom: 3rem;
     }
   
     .frontPic {
         width: 100%;
     }
   
+
     .NMTpic {
         width: 100%;
     }
@@ -245,6 +251,10 @@
     .serviceImages {
         display: flex;
         flex-direction: column;
+    }
+
+    .testimonials {
+        margin-top: .5rem;
     }
   
     .myCarousel {
