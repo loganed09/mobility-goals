@@ -211,3 +211,83 @@
     position: absolute;
     top: 35% !important;
   }
+
+
+
+  /* Mobile View */
+
+  @media only screen and (max-width: 700px) {
+    .home {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    .topSection {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  
+    .frontPic {
+        width: 100%;
+    }
+  
+    .NMTpic {
+        width: 100%;
+    }
+  
+    .services {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .serviceImages {
+        display: flex;
+        flex-direction: column;
+    }
+  
+    .myCarousel {
+      background: #fafafa;
+      margin-top: -6%;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-top: 8%;
+      padding-bottom: 8%;
+      padding-left: 5%;
+      padding-right: 5%;
+      border: 1px solid #ddd;
+      height: 750px;
+    }
+  
+    .carousel.carousel-slider .control-arrow {
+      display: none;
+    }
+  
+    .carousel-root {
+      width: 100% !important;
+      margin: auto !important;
+      margin-top: 3% !important;
+    }
+  
+    .myCarousel h4 {
+      margin-top: 35rem !important;
+    }
+
+    .testimonial4 p {
+        padding-top: 5rem !important;
+    }
+  
+    /* .testimonial4 h4 {
+       margin-top: 36rem !important;
+    } */
+  
+    .testimonial5 p {
+        padding-top: 15rem !important;
+    }
+  
+    .testimonial5 h4 {
+        margin-top: 25rem !important;
+    }
+ }

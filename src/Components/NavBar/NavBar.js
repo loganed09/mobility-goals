@@ -58,10 +58,17 @@ export default function NavBar() {
             </button>
             <ul className={`dropdown-content ${navbarOpen ? " showMenu" : ""}`} onClick={handleToggle}>
               {/* <a href="#schedule">Schedule</a> */}
-              <a href="#services">Services</a>
+              {/* <a href="#services">Services</a>
               <a href="#contact">Contact</a>
               <a href="#team">About</a>
-              <a href="#testimonials">Testimonials</a>
+              <a href="#testimonials">Testimonials</a> */}
+              <NavLink className="navItem nitem1" to='/mobility-goals'>Home</NavLink>
+              <NavLink className="navItem nitem2" to='/about'>Team</NavLink>
+              <NavLink className="navItem nitem3" to='/services'>Services</NavLink>
+              <a className="navItem nitem4" href="#contact">Contact</a>
+              <a className="navItem nitem5" href="https://www.instagram.com/mobilitygoals/">
+                <FontAwesomeIcon icon={faInstagram} />
+              </a>
             </ul>
           </div>
       </nav>
