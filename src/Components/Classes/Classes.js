@@ -4,7 +4,7 @@ import './Classes.css';
 
 export default function Classes() {
     return (
-        <div>
+        <div className="classesDiv">
             <h1>Stretching Classes Available</h1>
             <p>6 weeek course on stretching to improve your range of motion as well as education on foam rolling and tennis ball therapy.
             <br />

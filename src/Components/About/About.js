@@ -7,7 +7,7 @@ export default function About() {
     let aprilPic = require("../../resources/images/picOfApril-Team.jpg");
     let mattPic = require("../../resources/images/mattPic-Team.jpg");
     return(
-        <section>
+        <section className="aboutSection">
             <h1>Meet the Team!</h1>
             <div className="infoDiv aprilTeam">
                 <img src={aprilPic.default} className="aprilPic" />

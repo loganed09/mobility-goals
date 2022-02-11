@@ -1,3 +1,14 @@
-h1 {
-    margin-top: 20rem;
+.classesDiv {
+    margin-top: 10rem;
+}
+
+.classesDiv a {
+    color: blue;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .classesDiv {
+        margin-top: 7rem;
+    }
 }
