@@ -54,6 +54,7 @@ export default function NavBar() {
             <p className={`logo ${navbarOpen ? " hideLogo" : ""}`}>
                 <a href="home"><img className="iconImage" src={iconImage.default} alt="iconImg" /></a>
             </p>
+            <a className="appointmentBook" href="https://square.site/book/6GW4DVDWNC8ZY/mobility-goals-columbus-oh" target="_blank">Book an Appointment</a>
             <button className="mobile-id" onClick={handleToggle}>
                 <i className={`${navbarOpen ? "cross fas fa-times" : "hamburger fas fa-bars"}`}></i>
             </button>

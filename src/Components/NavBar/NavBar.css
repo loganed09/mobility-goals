@@ -73,6 +73,15 @@ nav {
         z-index: 100;
     }
 
+
+    .appointmentBook {
+        width: 85%;
+        height: 30%;
+        font-size: .8rem;
+        margin-top: .8rem;
+        padding-bottom: 1.2rem;
+        padding-top: .6rem;
+    }
     /* .logo.hideLogo {
         display: none;
     } */
