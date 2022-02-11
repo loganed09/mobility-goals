@@ -2,6 +2,7 @@ import React from 'react';
 import './Home.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import { NavLink } from 'react-router-dom';
 
 
 export default function Home() {
@@ -41,24 +42,30 @@ export default function Home() {
                 <div className='serviceImages'>
                     <div className="service1">
                         <h3>Service1</h3>
-                        <img src={workInProgress.default} alt="" className="service1" />
+                        <NavLink to='/services'>
+                            <img src={workInProgress.default} alt="" className="service1" />
+                        </NavLink>
                     </div>
                     <div className="service2">
                         <h3>Service2</h3>
-                        <img src={workInProgress.default} alt="" className="service2" />
+                        <NavLink to='/services'>
+                            <img src={workInProgress.default} alt="" className="service2" />
+                        </NavLink>
                     </div>
                     <div className="service3">
                         <h3>Service3</h3>
-                        <img src={workInProgress.default} alt="" className="service3" />
+                        <NavLink to='/services'>
+                            <img src={workInProgress.default} alt="" className="service3" />
+                        </NavLink>
                     </div>
-                    <div className="service4">
+                    {/* <div className="service4">
                         <h3>Service4</h3>
                         <img src={workInProgress.default} alt="" className="service4" />
                     </div>
                     <div className="service5">
                         <h3>Service5</h3>
                         <img src={workInProgress.default} alt="" className="service5" />
-                    </div>
+                    </div> */}
                 </div>
             </div>
             <div className='testimonials'>

@@ -43,8 +43,9 @@ export default function NavBar() {
               <NavLink className="navItem nitem2" to='/about'>Team</NavLink>
               <NavLink className="navItem nitem3" to='/services'>Services</NavLink>
               {/* <NavLink className="navItem nitem4" to='/contact'>Contact</NavLink> */}
-              <a className="navItem nitem4" href="#contact">Contact</a>
-              <a className="navItem nitem5" href="https://www.instagram.com/mobilitygoals/">
+              <NavLink className="navItem nitem4" to='/stretching'>Classes</NavLink>
+              <a className="navItem nitem5" href="#contact">Contact</a>
+              <a className="navItem nitem6" href="https://www.instagram.com/mobilitygoals/">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </div>
@@ -65,8 +66,9 @@ export default function NavBar() {
               <NavLink className="navItem nitem1" to='/mobility-goals'>Home</NavLink>
               <NavLink className="navItem nitem2" to='/about'>Team</NavLink>
               <NavLink className="navItem nitem3" to='/services'>Services</NavLink>
-              <a className="navItem nitem4" href="#contact">Contact</a>
-              <a className="navItem nitem5" href="https://www.instagram.com/mobilitygoals/">
+              <NavLink className="navItem nitem4" to='/stretching'>Classes</NavLink>
+              <a className="navItem nitem5" href="#contact">Contact</a>
+              <a className="navItem nitem6" href="https://www.instagram.com/mobilitygoals/">
                 <FontAwesomeIcon icon={faInstagram} />
               </a>
             </ul>
